@@ -1,0 +1,61 @@
+.search {
+    padding: 20px;
+}
+
+.ant-select {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+ .show {
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+    color: transparent;
+    background-clip: text;
+    animation: ran 10s linear infinite;
+ }
+ @keyframes ran {
+    from {
+        backgroud-position: 0 0;
+    }
+    to {
+        background-position: 2000px 0;
+    }
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    height: 100%;
+}
+.hidden {
+    display: none
+}
+.ant-select-dropdown-menu::-webkit-scrollbar-track{
+    background: rgb(239, 239, 239);
+    border-radius:2px;
+  }
+.ant-select-dropdown-menu::-webkit-scrollbar{
+    width:5px;
+    height:10px;
+    /**/
+  }
+.ant-select-dropdown-menu::-webkit-scrollbar-thumb{
+    background: #bfbfbf;
+    border-radius:10px;
+  }
+.show {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    margin-top: -80px;
+    margin-left: -80px;
+}
